@@ -61,7 +61,7 @@ void loop() {
     lcd.print("Peso: ");
     lcd.print(gramos);                  //Enviamos serialmente el valor de los gramos al LCD
     lcd.print("grs  ");
-      if(distancia > 7){                //si la distancia es superior a 6cm iniciamos el proceso
+      if(distancia > 6){                //si la distancia es superior a 6cm iniciamos el proceso
         Serial.println("abierto");      
         myservo.write(180);             //Movemos el servomotor 180 grados desde la posicion 0
       }else{
