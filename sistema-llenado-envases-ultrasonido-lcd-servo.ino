@@ -69,5 +69,6 @@ void loop() {
         myservo.write(0);               //Movemos el servomotor 180 grados desde la posicion 180
         proceso = false;                //declaramos el proceso como 0 digital
       }
+    delay(100);
   }
 }
